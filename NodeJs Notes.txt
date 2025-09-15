@@ -6,6 +6,8 @@ Node is very light weight on it own. It is the single threader, event-based and 
 All third party packages are maintained by NPM. 
 In node all the functions are asynchronous by default.
 In fs if file is present it will override the data in that file.
+we need to use utf-8 inorder to read the correct format.
+
 
 
 

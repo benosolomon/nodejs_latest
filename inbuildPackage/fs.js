@@ -6,9 +6,23 @@ var fs = require('fs');
 // });
 // console.log("END");
 
-fs.rename("sample.txt","demo.txt",(err)=> {
+// fs.rename("sample.txt","demo.txt",(err)=> {
+//  if(err)  throw err;
+// console.log("Append a file");
+// });
+// console.log("END");
+
+// fs.readFile("demo.txt","utf-8",(err,data)=> {
+//  if(err)  throw err;
+//  console.log(data)
+// console.log("Read a file");
+// });
+// console.log("END");
+
+
+fs.unlink("demo.txt",(err)=> {
  if(err)  throw err;
-console.log("Append a file");
+console.log("Deleted a file");
 });
 console.log("END");
 
