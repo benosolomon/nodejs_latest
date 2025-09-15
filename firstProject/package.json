@@ -1,0 +1,16 @@
+{
+  "name": "firstpackage",
+  "version": "1.0.0",
+  "description": "my very first node package",
+  "license": "ISC",
+  "author": "Beno solomon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0"
+  }
+}

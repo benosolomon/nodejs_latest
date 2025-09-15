@@ -1,0 +1,11 @@
+Node.js
+
+Node is very light weight on it own. It is the single threader, event-based and non-blocking.
+
+
+All third party packages are maintained by NPM. 
+In node all the functions are asynchronous by default.
+
+
+
+
