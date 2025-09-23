@@ -1,12 +1,38 @@
 Node.js
 
-Node is very light weight on it own. It is the single threader, event-based and non-blocking.
+Node is very light weight on it own. It is the single thread, event-based and non-blocking.
 
 
 All third party packages are maintained by NPM. 
 In node all the functions are asynchronous by default.
 In fs if file is present it will override the data in that file.
 we need to use utf-8 inorder to read the correct format.
+
+-----------------------------------------------------------------------
+
+ExpressJs
+
+Express is web application or framework in the node space. it is very lightweight , it will act as middleware .
+
+bodyparser pass the incoming request to json object.
+
+REST  - 
+http patch method allows partial update.
+
+uri is nouns and http methods are verbs.
+
+Express router to organize our api.
+
+------------------------------------------------------------------------
+
+MongoDB
+
+
+
+
+
+
+
 
 
 

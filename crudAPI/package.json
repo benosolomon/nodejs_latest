@@ -1,0 +1,23 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "CRUD Operation using Express, Mongo",
+  "keywords": [
+    "express",
+    "node",
+    "mongo"
+  ],
+  "license": "ISC",
+  "author": "Beno",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
